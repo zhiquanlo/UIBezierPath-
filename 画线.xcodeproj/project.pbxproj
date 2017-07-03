@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459D44761D3F177A0064B4BD /* UIBeziePathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459D44751D3F177A0064B4BD /* UIBeziePathView.m */; };
 		45B000EF1D364566000B2270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B000EE1D364566000B2270 /* main.m */; };
 		45B000F21D364566000B2270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B000F11D364566000B2270 /* AppDelegate.m */; };
 		45B000F51D364566000B2270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B000F41D364566000B2270 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		459D44741D3F177A0064B4BD /* UIBeziePathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBeziePathView.h; sourceTree = "<group>"; };
+		459D44751D3F177A0064B4BD /* UIBeziePathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBeziePathView.m; sourceTree = "<group>"; };
 		45B000EA1D364566000B2270 /* 画线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B000EE1D364566000B2270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45B000F01D364566000B2270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				45B000F11D364566000B2270 /* AppDelegate.m */,
 				45B000F31D364566000B2270 /* ViewController.h */,
 				45B000F41D364566000B2270 /* ViewController.m */,
+				459D44741D3F177A0064B4BD /* UIBeziePathView.h */,
+				459D44751D3F177A0064B4BD /* UIBeziePathView.m */,
 				45B000F61D364566000B2270 /* Main.storyboard */,
 				45B000F91D364566000B2270 /* Assets.xcassets */,
 				45B000FB1D364566000B2270 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				45B000F51D364566000B2270 /* ViewController.m in Sources */,
 				45B000F21D364566000B2270 /* AppDelegate.m in Sources */,
 				45B000EF1D364566000B2270 /* main.m in Sources */,
+				459D44761D3F177A0064B4BD /* UIBeziePathView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				45B001191D364566000B2270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B0011A1D364566000B2270 /* Build configuration list for PBXNativeTarget "画线Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				45B0011C1D364566000B2270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B0011D1D364566000B2270 /* Build configuration list for PBXNativeTarget "画线UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				45B0011F1D364566000B2270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
